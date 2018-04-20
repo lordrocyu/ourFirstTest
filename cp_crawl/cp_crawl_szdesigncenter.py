@@ -1,5 +1,4 @@
 #coding:utf-8
-
 import urllib2
 from bs4 import BeautifulSoup
 url = "http://www.szdesigncenter.org/?cat=203"

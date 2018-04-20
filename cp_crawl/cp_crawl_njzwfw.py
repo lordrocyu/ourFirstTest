@@ -33,7 +33,7 @@ for u in urls:
             time = result[4].find('p').text
             link = i['onclick']
             p = re.compile(r'\'(.+?)\'')
-            link_s = url + p.findall(link)[0]
+            link_s = urlroot + p.findall(link)[0]
             print title
             print type
             print price
